@@ -14,11 +14,9 @@ let image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src", randomImageSrc2)
 
 if(randomNumber1 >randomNumber2 ){
-    document.querySelector("h1").innerHTML="Player1 won";
+    document.querySelector("h1").innerHTML="😍Player1 won";
 }else if(randomNumber1 < randomNumber2){
-    document.querySelector("h1").innerHTML="Player2 won"
-}else if(randomNumber1= randomNumber2){
-    document.querySelector("h1").innerHTML="Hmm, Tie Game"
+    document.querySelector("h1").innerHTML="Player2 won🥳"
 }else{
-    document.querySelector("h1").innerHTML="hmm, its tie game"
+    document.querySelector("h1").innerHTML="😨Tie Game🤐"
 }
