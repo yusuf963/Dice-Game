@@ -20,3 +20,7 @@ if(randomNumber1 >randomNumber2 ){
 }else{
     document.querySelector("h1").innerHTML="😨Tie Game🤐"
 }
+ 
+document.querySelector("button").addEventListener("click", function(){
+    window.location.reload(true)
+})
